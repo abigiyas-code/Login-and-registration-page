@@ -1,0 +1,17 @@
+# syntax=docker/dockerfile:1
+
+FROM golang:1.18.3-alpine
+
+WORKDIR /commen
+
+COPY go.mod .
+COPY go.sum .
+RUN go mod download && go mod verify
+
+COPY *.go ./commen
+
+RUN go build -v -o ./out/loginandregisterpage
+
+EXPOSE 8080
+
+CMD ["./out/loginandregisterpage"]

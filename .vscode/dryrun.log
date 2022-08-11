@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/abigia/Desktop/BDD/commen/loginandregisterpage'
+make: Leaving directory '/home/abigia/Desktop/BDD/commen/loginandregisterpage'
+ 
+Makefile:3: *** target pattern contains no '%'.  Stop.
+

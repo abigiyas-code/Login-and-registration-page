@@ -1,0 +1,11 @@
+When we design a db we have to design 3 things first:
+    db migration using a command: migrate create -ext <extension file name> -dir <following path directories> -seq <name of the migrate file db>
+    queries file of holding sql data
+    Generate sqlc data from the 2 sources using command sqlc generate 
+
+DB Transaction: is a way of transaction of data from multiple tables;
+              : this db transaction satisfies ACID property; Atomicity, Consistancy; Isolation; Durability   
+     Operation: It starts with BEGIN; and ends with COMMIT; command    and if it thier is failure we handle by using a command of BEGIN; and ROLLBACK;
+        Steps follow: -> Create a function that excutes the transactin of data
+                      -> Create a function that support each transaction type of data for each table we created in 
+                      ->   

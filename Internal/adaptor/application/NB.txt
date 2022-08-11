@@ -1,0 +1,20 @@
+In application, we get command handlers which are processing coming in 
+    like: Input information handler 
+          DataBase Service   
+          Configure JSON file with ~`
+
+Those are processed inside the domain and can be accessed by an adaptors
+
+Using adaptors: Send request to domain (http)
+                Push data to DB 
+                docker adaptors
+
+        Use interfaces to communicate with ports
+        Help to test
+
+
+Https://MARTINFOWLER.COM/BLIKI/SACRIFICIALARCHITECTURE.HTML 
+
++++++++++ Docker containerize all cockroachdb using container name /udata1,udata2/udata3
+
+One time initilize cockroachdb cluster --> docker exec -it udata1 ./cockroach init --insecure

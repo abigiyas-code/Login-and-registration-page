@@ -1,0 +1,11 @@
+We we create a register api tasks undertaken are:
+        > Create a file that process an api server; the server serves
+            > Send a requirement to a user to fill the information 
+            > An input from user 
+            > Serve the input beyond the requirements and response an error or a "sucess" message 
+            >> for the user fill all needed information:
+                > Save the data in struct file 
+                > 
+        > Create a file that send the requirement binding file 
+            > The binding JSON struct sent to the user 
+        >  
